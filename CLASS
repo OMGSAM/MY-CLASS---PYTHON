@@ -1,0 +1,15 @@
+class player :
+ def_init_(self , name , age , rank ) :
+  self.name= name
+  self.age= age
+  self.rank= rank
+ def info(self) :
+    print("the player number {} The age {} the rank {} " .format(self.name , self.age , self.rank))
+player1=player("amin",20,30)
+player2=player("amin",20,30)
+player1.info()
+player2.info()
+
+
+
+       

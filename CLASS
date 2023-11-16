@@ -10,6 +10,20 @@ player2=player("amin",20,30)
 player1.info()
 player2.info()
 
+class CAR :
+ def_init_(self , SPEED , COLOR , NITRO ,MODEL ) :
+  self.SPEED= SPEED
+  self.COLOR= COLOR
+  self.NITRO= NITRO
+  self.MODEL= MODEL
+
+ def info(self) :
+    print("the SPEED number {} The COLOR {} the NITRO {}  the MODEL {} " .format(self.SPEED , self.COLOR , self.NITRO , self.MODEL))
+CAR1=CAR(100,"RED",20,1990)
+CAR2=CAR(200,"BLUE",20,1999)
+CAR1.info()
+CAR2.info()
+
 
 
        

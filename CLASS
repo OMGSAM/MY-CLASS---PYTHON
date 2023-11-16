@@ -25,5 +25,20 @@ CAR1.info()
 CAR2.info()
 
 
+class employee :
+ def_init_(self , name , sales , bonushrs , basesalary ) :
+  self.name= name
+  self.sales= sales
+  self.bonushrs= bonushrs
+  self.basesalary= basesalary
+
+ def info(self) :
+    print("the employee name {} sales {} bonushrs {} basesalary {}" .format(self.name , self.sales , self.bonushrs , self.basesalary))
+employe1=employee("amin",20,30,9000DH)
+employe2=employee("amin",20,30,7000DH)
+employee1.info()
+employee2.info()
+
+
 
        

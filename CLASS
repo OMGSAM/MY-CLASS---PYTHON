@@ -9,7 +9,7 @@ player1=player("amin",20,30)
 player2=player("amin",20,30)
 player1.info()
 player2.info()
-
+!!!!!!!!!!!!!!!!!!!!
 class CAR :
  def_init_(self , SPEED , COLOR , NITRO ,MODEL ) :
   self.SPEED= SPEED
@@ -23,8 +23,23 @@ CAR1=CAR(100,"RED",20,1990)
 CAR2=CAR(200,"BLUE",20,1999)
 CAR1.info()
 CAR2.info()
+!!!!!!!!!!!!!!!!!!!!!
+class mobile :
+ def_init_(self , companyname , storage , serialnum ,dualsim ) :
+  self.companyname= companyname
+  self.storage= storage
+  self.serialnum= serialnum
+  self.dualsim= dualsim
 
+ def info(self) :
+    print("the companyname {} The storage {} the serialnum {}  the dualsim {} " .format(self.companyname , self.storage , self.serialnum , self.dualsim))
+mobile1=mobile( "HP",20,1990,30)
+mobile2=mobile( "HP",20,1990,30)
 
+mobile1.info()
+mobile2.info()
+
+!!!!!!!!!!!!!!!!!
 class employee :
  def_init_(self , name , sales , bonushrs , basesalary ) :
   self.name= name
